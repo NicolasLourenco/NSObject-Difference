@@ -15,6 +15,8 @@
 		1A0D547E1C4FEBCE007436BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0D547C1C4FEBCE007436BF /* LaunchScreen.storyboard */; };
 		1A0D54891C4FEBCF007436BF /* DifferenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D54881C4FEBCF007436BF /* DifferenceTests.m */; };
 		1A0D54941C4FEBCF007436BF /* DifferenceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D54931C4FEBCF007436BF /* DifferenceUITests.m */; };
+		1A0D54A31C4FEBE2007436BF /* Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D54A21C4FEBE2007436BF /* Object.m */; };
+		1A51330B1D0AB17100BC1393 /* NSObject+Difference.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51330A1D0AB17100BC1393 /* NSObject+Difference.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		1A0D548F1C4FEBCF007436BF /* DifferenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DifferenceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0D54931C4FEBCF007436BF /* DifferenceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DifferenceUITests.m; sourceTree = "<group>"; };
 		1A0D54951C4FEBCF007436BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A0D54A11C4FEBE2007436BF /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		1A0D54A21C4FEBE2007436BF /* Object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Object.m; sourceTree = "<group>"; };
+		1A5133091D0AB17100BC1393 /* NSObject+Difference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Difference.h"; sourceTree = "<group>"; };
+		1A51330A1D0AB17100BC1393 /* NSObject+Difference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Difference.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				1A0D54721C4FEBCE007436BF /* AppDelegate.m */,
 				1A0D54741C4FEBCE007436BF /* ViewController.h */,
 				1A0D54751C4FEBCE007436BF /* ViewController.m */,
+				1A0D54A11C4FEBE2007436BF /* Object.h */,
+				1A0D54A21C4FEBE2007436BF /* Object.m */,
+				1A5133091D0AB17100BC1393 /* NSObject+Difference.h */,
+				1A51330A1D0AB17100BC1393 /* NSObject+Difference.m */,
 				1A0D54771C4FEBCE007436BF /* Main.storyboard */,
 				1A0D547A1C4FEBCE007436BF /* Assets.xcassets */,
 				1A0D547C1C4FEBCE007436BF /* LaunchScreen.storyboard */,
@@ -272,6 +282,8 @@
 			files = (
 				1A0D54761C4FEBCE007436BF /* ViewController.m in Sources */,
 				1A0D54731C4FEBCE007436BF /* AppDelegate.m in Sources */,
+				1A0D54A31C4FEBE2007436BF /* Object.m in Sources */,
+				1A51330B1D0AB17100BC1393 /* NSObject+Difference.m in Sources */,
 				1A0D54701C4FEBCE007436BF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +510,7 @@
 				1A0D549A1C4FEBCF007436BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A0D549B1C4FEBCF007436BF /* Build configuration list for PBXNativeTarget "DifferenceTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				1A0D549D1C4FEBCF007436BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A0D549E1C4FEBCF007436BF /* Build configuration list for PBXNativeTarget "DifferenceUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				1A0D54A01C4FEBCF007436BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
